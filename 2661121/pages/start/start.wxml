@@ -1,0 +1,26 @@
+<!--start.wxml-->
+
+<button class="btn1" bindtap="getDataFromOneNet">
+观测猫咪</button>
+<!-- <image ></image> -->
+ <!-- <radio-group class="radio-group" bindchange="radioChange"> 
+  <label style="display: flex"  wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group> -->
+<!--
+<input id="input" placeholder="输入温度门限" 
+placeholder-style="font-size:15px; color:lightblue;" 
+style="font-weight:bolder; font-size:45px; color:#111111; padding-left: 30rpx"
+  bindinput="change"/>
+-->
+<text id="titlle">撸猫指南</text>
+<!-- <image id="addImg" style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{imgUrl}}"  /> -->
+<text id="text">提示：当猫舍里有猫的时候就会告诉你哟~</text>
+<text id="text1">请时常关注有没有猫粮哦</text>
+<text id="text2">戳【观测猫咪】看看猫窝里猫的情况</text>
+<button id="btn3"  
+bindtap="send">让我来看看有没有猫</button>
+<button id="btn4" 
+bindtap="sendfood">猫粮查询</button>
+
